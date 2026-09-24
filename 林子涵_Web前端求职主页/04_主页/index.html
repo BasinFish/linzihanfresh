@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="林子涵的Web前端开发实习生求职主页">
+    <title>林子涵｜Web前端开发实习生</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <a class="brand" href="#top">LZH<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">个人信息</a>
+                <a href="#skills">技能</a>
+                <a href="#projects">项目</a>
+                <a href="#education">教育</a>
+            </div>
+            <a class="nav-cta" href="#contact">联系我</a>
+        </nav>
+
+        <div class="hero-content container" id="top">
+            <div class="hero-copy">
+                <p class="eyebrow">WEB FRONT-END INTERN · FUZHOU</p>
+                <h1>你好，我是<br><span>林子涵</span></h1>
+                <p class="hero-text">
+                    计算机应用技术专业学生，具备 HTML/CSS 页面开发、移动端页面制作和基础 B/S 交互实训经验。
+                </p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#projects">查看项目 <span>↗</span></a>
+                    <a class="btn secondary" href="./assets/resume.pdf" download>下载我的简历</a>
+                </div>
+                <div class="quick-info">
+                    <span>24IT1</span>
+                    <i></i>
+                    <span>计算机应用技术</span>
+                    <i></i>
+                    <span>福州求职</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <img src="./assets/banner.png" alt="个人主页科技风Banner">
+                    <div class="code-window">
+                        <div class="window-bar"><span></span><span></span><span></span></div>
+                        <code>
+                            <b>&lt;section</b> <em>class</em>=<strong>"frontend"</strong><b>&gt;</b><br>
+                            &nbsp;&nbsp;HTML + CSS<br>
+                            &nbsp;&nbsp;Mobile UI<br>
+                            &nbsp;&nbsp;B/S Basics<br>
+                            <b>&lt;/section&gt;</b>
+                        </code>
+                    </div>
+                    <div class="floating-tag">01 / PORTFOLIO</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section about" id="about">
+            <div class="container two-col">
+                <div>
+                    <p class="section-label">01 — ABOUT ME</p>
+                    <h2>关于我</h2>
+                </div>
+                <div class="about-text">
+                    <p>
+                        我是林子涵，就读于福州墨尔本理工职业学院计算机应用技术专业。
+                        目前希望寻找 Web 前端开发实习机会。
+                    </p>
+                    <p>
+                        在课程和实训中，我完成过静态网页、移动端首页以及 B/S 前后端交互项目，
+                        主要积累了页面结构、样式排版、移动端适配、基础交互和调试排错方面的实践经验。
+                    </p>
+                    <div class="contact-grid" id="contact">
+                        <div><span>PHONE</span><strong>13328859558</strong></div>
+                        <div><span>EMAIL</span><button id="copyEmail" class="email-btn">1635886896@qq.com <small>复制</small></button></div>
+                        <div><span>LOCATION</span><strong>福州</strong></div>
+                        <div><span>MAJOR</span><strong>计算机应用技术</strong></div>
+                    </div>
+                    <p id="copyStatus" class="copy-status" aria-live="polite"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="container">
+                <p class="section-label">02 — SKILLS</p>
+                <div class="section-heading">
+                    <h2>我会什么</h2>
+                    <p>围绕目标岗位整理的真实技能，均来自已有简历素材。</p>
+                </div>
+                <div class="skill-grid">
+                    <article class="skill-card featured">
+                        <div class="skill-number">01</div>
+                        <h3>HTML / CSS</h3>
+                        <p>使用 HTML 搭建页面结构，使用 CSS 完成样式排版，并调试页面布局。</p>
+                        <div class="skill-tags"><span>HTML</span><span>CSS</span><span>页面布局</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-number">02</div>
+                        <h3>移动端页面</h3>
+                        <p>完成移动端首页、搜索栏、分类入口和推荐商品卡片等页面模块。</p>
+                        <div class="skill-tags"><span>Mobile UI</span><span>适配</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-number">03</div>
+                        <h3>基础交互</h3>
+                        <p>完成搜索栏、分类导航和推荐商品列表等基础页面交互。</p>
+                        <div class="skill-tags"><span>交互</span><span>页面开发</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-number">04</div>
+                        <h3>B/S 与调试</h3>
+                        <p>完成简易 B/S 实训，能够排查图片、样式以及基础请求报错。</p>
+                        <div class="skill-tags"><span>B/S</span><span>调试排错</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-number">05</div>
+                        <h3>协作与其他基础</h3>
+                        <p>按项目分工完成页面开发并配合数据对接，同时具备 Python 基础编程和 VMware 虚拟机部署基础。</p>
+                        <div class="skill-tags"><span>团队协作</span><span>Python</span><span>VMware</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="container">
+                <p class="section-label">03 — PROJECTS</p>
+                <div class="section-heading">
+                    <h2>项目与实训</h2>
+                    <p>把做过的事情说清楚，用真实项目体现实践能力。</p>
+                </div>
+
+                <div class="project-list">
+                    <article class="project-card">
+                        <div class="project-index">01</div>
+                        <div class="project-main">
+                            <div class="project-title">
+                                <h3>Web 静态网页实训项目</h3>
+                                <span>2026.05</span>
+                            </div>
+                            <p class="role">独立开发者</p>
+                            <p>使用 HTML 搭建页面结构、CSS 完成样式排版，完成 1 套包含 5 个模块的静态网页；调试并修正页面样式错位问题。</p>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>页面布局</span><span>调试</span></div>
+                        </div>
+                        <div class="project-stat"><strong>5</strong><small>模块</small></div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-index">02</div>
+                        <div class="project-main">
+                            <div class="project-title">
+                                <h3>校园二手闲置移动应用开发项目</h3>
+                                <span>2025–2026 下</span>
+                            </div>
+                            <p class="role">项目开发组员</p>
+                            <p>负责移动端首页模块，完成顶部搜索栏、8 个商品分类入口及推荐商品卡片页面；调试移动端适配，修复图片加载和排版问题，并配合组员完成页面数据对接。</p>
+                            <div class="project-tags"><span>移动端</span><span>适配</span><span>基础交互</span><span>团队协作</span></div>
+                        </div>
+                        <div class="project-stat"><strong>8</strong><small>分类入口</small></div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-index">03</div>
+                        <div class="project-main">
+                            <div class="project-title">
+                                <h3>B/S 框架开发技术应用</h3>
+                                <span>2025–2026 上</span>
+                            </div>
+                            <p class="role">课程学习者</p>
+                            <p>完成 1 套简易 B/S 实训项目，编写前端页面并调试后端简易服务，实现页面访问与基础数据提交；测试浏览器访问并排查请求报错。</p>
+                            <div class="project-tags"><span>B/S</span><span>前后端交互</span><span>调试</span></div>
+                        </div>
+                        <div class="project-stat"><strong>1</strong><small>套项目</small></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section education" id="education">
+            <div class="container two-col">
+                <div>
+                    <p class="section-label">04 — EDUCATION</p>
+                    <h2>教育与荣誉</h2>
+                </div>
+                <div>
+                    <div class="education-card">
+                        <span class="date">2024.09 — 2027.09</span>
+                        <h3>福州墨尔本理工职业学院</h3>
+                        <p>2024级 · 计算机应用技术 · 24IT1</p>
+                        <div class="course-list">
+                            <span>Web 开发实训</span>
+                            <span>互联网移动应用开发</span>
+                            <span>B/S 框架开发技术应用</span>
+                            <span>Python 程序设计</span>
+                        </div>
+                    </div>
+
+                    <div class="honors">
+                        <h3>证书与荣誉</h3>
+                        <div class="honor"><b>2024–2025</b><span>校优秀学生综合奖学金二等奖</span></div>
+                        <div class="honor"><b>2024–2025</b><span>校“三好学生”荣誉称号</span></div>
+                        <div class="honor"><b>2025–2026</b><span>闽江大学“优秀志愿者”荣誉称号</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section evaluation">
+            <div class="container evaluation-box">
+                <div>
+                    <p class="section-label">05 — SELF EVALUATION</p>
+                    <h2>自我评价</h2>
+                </div>
+                <p>
+                    完成过静态网页、移动端首页和 B/S 前后端交互实训，能够按任务拆分页面模块并进行基础调试。
+                    在小组项目中按分工完成页面开发与联调，并持续通过实训提升自己的前端开发能力。
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div><strong>林子涵<span>.</span></strong><small>Web Front-end Intern</small></div>
+            <p>© 2026 Lin Zihan · Personal Portfolio</p>
+            <a href="#top">返回顶部 ↑</a>
+        </div>
+    </footer>
+
+    <script>
+        // 邮箱一键复制：使用浏览器原生 Clipboard API
+        const copyEmail = document.getElementById('copyEmail');
+        const copyStatus = document.getElementById('copyStatus');
+
+        copyEmail.addEventListener('click', async () => {
+            const email = '1635886896@qq.com';
+            try {
+                await navigator.clipboard.writeText(email);
+                copyStatus.textContent = '邮箱已复制：' + email;
+            } catch (error) {
+                copyStatus.textContent = '复制失败，请手动复制邮箱：' + email;
+            }
+        });
+    </script>
+</body>
+</html>
